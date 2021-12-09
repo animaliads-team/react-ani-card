@@ -5,5 +5,15 @@ import '@animaliads/ani-card';
 import './style.css';
 
 export default function App() {
-  return <ani-card> Descrição card </ani-card>;
+  return (
+    <div>
+      <ani-card>Card read-only</ani-card>
+      <ani-card type="link" href="https://www.google.com/">
+        Card link
+      </ani-card>
+      <ani-card type="selectable" selected="true">
+        Card selectable
+      </ani-card>
+    </div>
+  );
 }
