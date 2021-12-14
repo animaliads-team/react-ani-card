@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@animaliads/ani-card": "^1.1.0-dev.30",
+    "@animaliads/ani-card": "^1.1.0-dev.35",
     "@animaliads/animalia-brand": "dev",
     "@animaliads/css-tokens": "dev",
     "react": "17.0.2",
